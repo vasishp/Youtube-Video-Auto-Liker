@@ -18,7 +18,7 @@ You can change it inside the code or consider that as input, for this version , 
 ## How to use :
 
 Install chrome driver according to the version of your chrome 
-https://chromedriver.chromium.org/downloads
+#### https://chromedriver.chromium.org/downloads
 
 Install selenium ( In ubuntu )
 #### pip3 install selenium
