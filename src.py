@@ -4,6 +4,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import TimeoutException
+from webdriver_manager.chrome import ChromeDriverManager
 import time
 
 
@@ -14,7 +15,7 @@ class Signin :
 		self.pwd = pwd
 
 	def click_sign_in (self):	#Selecting SIGN IN button in home page of youtube
-		self.driver = webdriver.Chrome()
+		self.driver = webdriver.Chrome(ChromeDriverManager(version="88.0.4324.96").install())
 		self.driver.get("https://youtube.com")
 		time.sleep(2)
 		self.driver.find_element_by_xpath("//ytd-button-renderer[@class='style-scope ytd-masthead style-suggestive size-small']").click()
