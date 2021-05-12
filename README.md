@@ -17,9 +17,13 @@ You can change it inside the code or consider that as input, for this version , 
 
 ## How to use :
 
-Install chrome driver according to the version of your chrome 
-#### https://chromedriver.chromium.org/downloads
+#### Install chrome driver according to the version of your chrome  
+https://chromedriver.chromium.org/downloads
 
-Install selenium ( In ubuntu )
-#### pip3 install selenium
 
+#### Install selenium ( In ubuntu )  
+pip3 install selenium
+
+
+#### Some reference to match up chrome driver version with chrome ####  
+https://stackoverflow.com/questions/65194694/session-not-created-this-version-of-chromedriver-only-supports-chrome-version-8/65194918
